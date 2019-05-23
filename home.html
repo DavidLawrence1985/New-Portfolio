@@ -4,34 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./assets/index.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
-    <header>
-        <h2>David Lawrence</h2>
-    </header>
     <div class="wrapper">
-        <div class="section" id="about">
-            <h1 class="title">ABOUT ME</h1>
+        <header>
+            <h1 class="headline">David Lawrence</h1>
+            <p class="sub-head">Full-Stack Web Developer</p>
+        </header>
+        <!-- <div class="wrapper"> -->
+            <div class="inner-wrap">
+                <div class="section" id="about">
+                <a class="my-link" href="about.html"><h1 class="title">About Me</h1></a>
 
-        </div>
+                </div>
+                <div id="projects-wrapper">
+                    <div class="section" id="portfolio">
+                    <a class="my-link" href="protfolio.html"><h1 class="title">Portfolio</h1></a>
 
-        <div class="section" id="projects">
-            <h1 class="title">PROJECTS</h1>
+                    </div>
+                </div>    
+                
+                <div class="section" id="resume">
+                <a  class="my-link" href="resume.html"><h1 class="title">Resume</h1></a>
 
-        </div>
+                </div>
+            </div>   
         
-        <div class="section" id="contact">
-            <h1 class="title">CONTACT</h1>
+        <footer>
+            <a href ="mailto: dalaw85@gmail.com"><img class="foot-img" id="mail-logo" src="./assets/images/gmail.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/david-lawrence-2705aa174/"><img class="foot-img" id="linked-logo" src="./assets/images/linked.svg" alt=""></a>
+            <a href="https://github.com/DavidLawrence1985"><img class="foot-img" id="git-logo" src="./assets/images/github-logo.png" alt=""></a>
+        </footer>
 
-        </div>
     </div>
-
-    <footer>
-        <a href="https://www.linkedin.com/in/david-lawrence-2705aa174/"><img class="foot-img" src="./assets/images/linked.svg" alt=""></a>
-        <a href="https://github.com/DavidLawrence1985"><img class="foot-img" src="./assets/images/github-logo.png" alt=""></a>
-    </footer>
 </body>
 </html>
